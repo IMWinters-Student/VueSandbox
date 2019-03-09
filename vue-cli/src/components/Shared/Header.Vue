@@ -8,6 +8,12 @@
                 <li>
                     <router-link class="navLink" to="/Adventures">Adventures</router-link>  
                 </li>
+                <li>
+                    <router-link class="navLink" to="/Gear">Gear</router-link>  
+                </li>
+                <li>
+                    <router-link class="navLink" to="/AboutUs">About Us</router-link>  
+                </li>
             </ul>
     </div>
 </template>

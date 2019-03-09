@@ -19,14 +19,15 @@
 <script>
     import Header from './components/Shared/Header.vue';
     import Footer from './components/Shared/Footer.vue';
-    import Servers from './components/Server/Servers.vue';
-    import ServerDetails from './components/Server/ServerDetails.vue';
+    import Adventures from './components/Pages/Adventures.vue';
+    import Gear from './components/Pages/Gear.vue';
+    import Team from './components/Pages/AboutUs.vue';
 
     export default {
         components: {
             'app-header': Header,
-            Servers,
-            'app-server-details': ServerDetails,
+            Adventures,
+            Gear,
             'app-footer': Footer
         }
     }
