@@ -1,15 +1,14 @@
 <template>
-    <div >
-        <div >
-           <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <router-link to="/">Home</router-link>  
+    <div class="container"> 
+        <h3 class="title">Los Cabalerbros</h3>
+           <ul>
+                <li >
+                    <router-link class="navLink" to="/">Home</router-link>  
                 </li>
-                <li class="nav-item">
-                    <router-link to="/Adventures">Active</router-link>  
+                <li>
+                    <router-link class="navLink" to="/Adventures">Adventures</router-link>  
                 </li>
             </ul>
-        </div>
     </div>
 </template>
 
@@ -17,5 +16,36 @@
 </script>
 
 <style scoped>
+    .container{
+        display: inline-flex;
+        align-items: baseline;
+        justify-content: flex-end;
+        align-content: flex-end;
+        width: 100%;
+    }
+    .title{
+        width: 35%;
+        padding-left: 15px;
+    }
+    ul{
+        display: inline-flex ;
+        font-size: 20px;
+        margin: 5px;
+        list-style: none;
+        width: 95%;
+        justify-content: flex-end;
+    }
+    li{
+        padding: 8px;
+    }
+    .navLink{
+  text-decoration: none;
+  color: black
+}
+
+    .navLink :visited {
+  text-decoration: none;
+  color: black
+}
 
 </style>

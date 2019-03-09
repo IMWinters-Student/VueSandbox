@@ -35,6 +35,7 @@
 <style scoped>
     .container{
         height: 100%;
+        width: 100%;
     }
  
   @media(min-height: 850px){
@@ -44,47 +45,40 @@
       }
   }
     .bodyContent{
-
+        background-color: #D6D5D1;
         display: flex;
         width: 100%;
-        height: 800px;
+        height: 850px;
         top: 200px;
         bottom: 150px;
         align-items: center;
         justify-content: center;
-        border: 2px black;
+
     }
 
     .header{
-        align-self: center;
-        display: flex;
+        background-color: #A6B170;
         position: fixed;
         top:0;
-        width: 98%;
+        width: 100%;
         border: 1px solid grey;
-        border-radius: 5px;
         box-shadow: 2px;
         box-shadow: 1px 1px 1px 1px #888888;
-        padding: 2px;
-        justify-content: center;
-        align-items: flex-end;
+
     }
 
-    .header ul {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+ 
     .footer{
         align-self: center;
         display: flex;
-        position: fixed;
+        border: 1px solid green;
+        border-radius: 5px;
         bottom:0;
         width: 100%;
-        height: 150px;
+        height: 50px;
         align-items: center;
         justify-content: center;
+        background-color: #A6B170;
         
     }
 
