@@ -57,7 +57,7 @@
         position: fixed;
         top:0;
         width: 100%;
-        border-radius: 4px;
+
         border: 1px solid grey;
   
 
@@ -73,7 +73,6 @@
         align-items: center;
         justify-content: center;
         background-color: #3C563F;
-        box-shadow: 1px 2px darkgrey;
         
     }
 

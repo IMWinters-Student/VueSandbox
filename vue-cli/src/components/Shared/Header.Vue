@@ -52,9 +52,7 @@
     li{
         padding: 8px;
         background-color:#F2CFB2;
-        border: 1px solid black;
-        border-radius: 25px;
-        box-shadow: 2px 2px #5E3746;
+        border-radius: 8px;
         margin: 3px;
     }
     .navLink{
