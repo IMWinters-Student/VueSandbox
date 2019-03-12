@@ -57,7 +57,7 @@
         position: fixed;
         top:0;
         width: 100%;
-
+        height: 100px;
         border: 1px solid grey;
   
 
