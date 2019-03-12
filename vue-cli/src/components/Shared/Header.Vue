@@ -40,6 +40,7 @@
         color: honeydew;
         justify-content: center;
         align-content: center;
+        font: italic bold 16px/1.5 Arial;
     }
     ul{
         display: inline-flex ;
