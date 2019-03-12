@@ -1,19 +1,24 @@
 <template>
     <div>
         Our Team:
-        <ul>
-            <li v-for="teamMember in team"> {{teamMember.Name}} from {{teamMember.From}} </li>
+        <ul >
+            <one-of-us v-for="(teamMember, index) in team" :name="teamMember.name" :img="teamMember.img" :bio="teamMember.bio" :key="index"/>
         </ul>
     </div>
 </template>
 
 <script>
+import OneOfUs from './OneOfUs.vue'
+
 export default {
-   data: function(){
+    components: {
+            OneOfUs
+        },
+   data: function(){       
        return{
            team:{ 
-               1:{Name:"Harry W.", From: "Grass Valley, CA"},
-               2:{Name: "Isaac W.", From: "Grass Valley, CA"}
+               1:{name:"Harry W.", bio: "Grass Valley, CA", img:""},
+               2:{name: "Isaac W.", bio: "Grass Valley, CA", img:""}
            }
            
        }

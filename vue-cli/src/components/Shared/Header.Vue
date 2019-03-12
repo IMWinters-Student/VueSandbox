@@ -36,7 +36,8 @@
         width: 155px;
         padding-top: 22px;
         padding-left: 5px;
-        background-color: blanchedalmond;
+        background-color: black;
+        color: honeydew;
         justify-content: center;
         align-content: center;
     }
@@ -50,6 +51,11 @@
     }
     li{
         padding: 8px;
+        background-color:#F2CFB2;
+        border: 1px solid black;
+        border-radius: 25px;
+        box-shadow: 2px 2px #5E3746;
+        margin: 3px;
     }
     .navLink{
   text-decoration: none;

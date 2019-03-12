@@ -46,7 +46,6 @@
         background-color: white;
         padding-left: 150px;
         display: flex;
-        width: 100%;
         height: 850px;
         align-items: center;
         justify-content: left;
@@ -54,13 +53,13 @@
     }
 
     .header{
-        background-color: #A6B170;
+        background-color: #3C563F;
         position: fixed;
         top:0;
-        width: 99%;
+        width: 100%;
+        border-radius: 4px;
         border: 1px solid grey;
-        box-shadow: 2px;
-        box-shadow: 1px 1px 1px 1px #888888;
+  
 
     }
 
@@ -73,8 +72,8 @@
         height: 50px;
         align-items: center;
         justify-content: center;
-        background-color: #A6B170;
-        box-shadow: 2px 2px #888888;
+        background-color: #3C563F;
+        box-shadow: 1px 2px darkgrey;
         
     }
 
