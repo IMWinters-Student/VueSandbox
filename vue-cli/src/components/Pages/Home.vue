@@ -1,26 +1,16 @@
 <template>
-    <div>
-        <p>CabalerBros</p>
-        <p> Error 404 </p>
-        <p> Sorry this page doesnt exist. If there are no typos it's our bad. </p>
+    <div class="container" >
+        <p>Los CabalerBros</p>
+        <p>Just let me go outside already! </p>
+        <hr>
     </div>
 </template>
 
 <script>
 export default {
-    data: function(){
-        return{
-            status: 'Critical'
-        }
-    },
+    
     methods: {
-        changeStatus(){
-            if(this.status == 'Critical'){
-            this.status = 'Normal';}
-            else{
-            this.status = 'Critical';
-            }
-        }
+        
     },
     computed: {
 

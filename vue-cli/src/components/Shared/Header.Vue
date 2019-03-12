@@ -30,8 +30,15 @@
         width: 100%;
     }
     .title{
-        width: 35%;
-        padding-left: 15px;
+        margin: 15px;
+        height: 50px;
+        border-radius: 50%;
+        width: 155px;
+        padding-top: 22px;
+        padding-left: 5px;
+        background-color: blanchedalmond;
+        justify-content: center;
+        align-content: center;
     }
     ul{
         display: inline-flex ;

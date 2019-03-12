@@ -1,13 +1,13 @@
 <template>
-<div>
-    <p> Gear Page</p>
-</div>
+    <div>
+        <p> Gear Page </p>
+    </div>
 </template>
 
 <script>
 
 </script>
 
-<style lang="sass">
+<style scoped>
 
 </style>
