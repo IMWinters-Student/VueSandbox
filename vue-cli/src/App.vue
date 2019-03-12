@@ -19,13 +19,15 @@
     import Adventures from './components/Pages/Adventures.vue';
     import Gear from './components/Pages/Gear.vue';
     import Team from './components/Pages/AboutUs.vue';
+    import Error404 from './components/Pages/Error404.vue'
 
     export default {
         components: {
             'app-header': Header,
             Adventures,
             Gear,
-            'app-footer': Footer
+            'app-footer': Footer,
+            Error404
         }
     }
 </script>
@@ -63,7 +65,6 @@
 
     }
 
- 
     .footer{
         align-self: center;
         display: flex;

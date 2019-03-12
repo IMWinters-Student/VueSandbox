@@ -2,23 +2,25 @@
     <div>
         Our Team:
         <ul >
-            <one-of-us v-for="(teamMember, index) in team" :name="teamMember.name" :img="teamMember.img" :bio="teamMember.bio" :key="index"/>
+            <one-of-us v-for="(teamMember, index) in team" :name="teamMember.name" :image="teamMember.image" :bio="teamMember.bio" :key="index"/>
         </ul>
     </div>
 </template>
 
 <script>
-import OneOfUs from './OneOfUs.vue'
+import OneOfUs from './OneOfUs.vue';
+import Isaac from '../../assets/21b7e24f-5357-4e98-8dc0-727fa0a0a489.jpg'
 
 export default {
     components: {
             OneOfUs
         },
-   data: function(){       
+   data: function(){
+              
        return{
            team:{ 
-               1:{name:"Harry W.", bio: "Grass Valley, CA", img:""},
-               2:{name: "Isaac W.", bio: "Grass Valley, CA", img:""}
+               1:{name:"Harry W.", bio: "From Grass Valley, CA", image:""},
+               2:{name: "Isaac W.", bio: "Please just give me some food...", image: Isaac}
            }
            
        }
