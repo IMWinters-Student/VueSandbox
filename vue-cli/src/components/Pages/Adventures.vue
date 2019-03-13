@@ -4,30 +4,22 @@
         Upcoming Adventures:
         </p>
         <ul>
-            <li v-for="adventure in nextAdventures"> {{adventure.Event}} leaving on: {{adventure.Date}} </li>
+            <li v-for="(adventure, index) in $store.getters.getAdventures" :key="index"> {{adventure.name}} leaving on: {{adventure.departure}} </li>
         </ul>
     </div>
 </template>
 
 <script>
+import {mapGetters} from 'vuex';
 export default {
-   data: function(){
-       return{
-           nextAdventures:{ 
-               1:{Event:"Twitney", Date: "July 6, 2019"},
-               2:{Event: "Escape the Rat Race", Date: "SOOON"}
-           }
-           
-       }
-   }
-    }
+}
 </script>
 
 <style scoped>
     .headline{
         position: fixed;
-        left: 50px;
-        top: 100px;
+        left: 150px;
+        top: 350px;
     }
     ul{
         list-style: none;
