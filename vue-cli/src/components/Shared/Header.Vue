@@ -49,6 +49,7 @@
         list-style: none;
         width: 95%;
         justify-content: flex-end;
+        margin-right: 25px;
     }
     li{
         padding: 8px;

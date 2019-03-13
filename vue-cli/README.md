@@ -1,6 +1,6 @@
 # vuesandbox
 
-> A exercise in vue
+> An exercise in vue
 
 ## Build Setup
 

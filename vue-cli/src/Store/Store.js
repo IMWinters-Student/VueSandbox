@@ -15,8 +15,10 @@ export const store = new Vuex.Store({
         // example getter is not used in the application
         // return it anywhere in the app with this.$store.getters.Example
         // do not exicute the functuion when called from a vue component, vue will handle that
+        // async functons MUST only happen in actions and then call the mutation to chagne the state
+
         getters: {
-            Example: state => {
+            Example: (state) => {
                 return state.x * 2;
             },
             getAdventures: state =>{
@@ -24,11 +26,16 @@ export const store = new Vuex.Store({
             }
         },
         mutations: {
-            incrementX: state => {
-                state.x ++
+            incrementX: (state, payload) => {
+                state.x += payload
             },
             decrementX: state =>{
                 state.x --
+            }
+        },
+        actions: {
+            increment: ({commit}, payload) => {
+                setTimeout((commit('incrementX'), payload), 1000);
             }
         }
 });
